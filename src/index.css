@@ -17,7 +17,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-purple-900 rounded-full hover:bg-purple-800 transition-colors;
+  @apply bg-purple-500/10 rounded-full hover:bg-purple-800 transition-colors;
 }
 
 /* Smooth transitions */

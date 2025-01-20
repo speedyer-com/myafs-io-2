@@ -23,8 +23,8 @@ app.get('/proxy', async (req, res) => {
 
     res.send(response.data); 
   } catch (error) {
-    console.error(error);
-    res.status(500).send('Error fetching data');
+    console.error(error.response);
+    res.status(500).send('Error fetching data' + error.message);
   }
 });
 

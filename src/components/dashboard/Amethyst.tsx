@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Send, Bot, BookOpen, GitBranch, HelpCircle, Zap } from 'lucide-react';
 
-export function AIAssistant() {
+export function Amethyst() {
   const [message, setMessage] = useState('');
 
   const quickLinks = [

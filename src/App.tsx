@@ -11,7 +11,7 @@ import { PullRequests } from './pages/PullRequests';
 import { Teams } from './pages/Teams';
 import { Database } from './pages/Database';
 import { Services } from './pages/Services';
-import { ExternalGoogle } from './pages/ExternalGoogle';
+import { ExternalIDE } from './pages/external/IDE';
 
 export default function App() {
   return (
@@ -31,7 +31,7 @@ export default function App() {
             <Route path="/teams" element={<Teams />} />
             <Route path="/database" element={<Database />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/external/google" element={<ExternalGoogle />} />
+            <Route path="/external/IDE" element={<ExternalIDE />} />
           </Routes>
         </main>
       </div>

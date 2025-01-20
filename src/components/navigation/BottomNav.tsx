@@ -9,8 +9,8 @@ import {
   Users,
   Database,
   Cloud,
-  Chrome,
-  LayoutDashboard
+  LayoutDashboard,
+  Code
 } from 'lucide-react';
 
 export function BottomNav() {
@@ -24,11 +24,11 @@ export function BottomNav() {
     { to: '/teams', icon: Users, label: 'Teams' },
     { to: '/database', icon: Database, label: 'Database' },
     { to: '/services', icon: Cloud, label: 'Services' },
-    { to: '/external/google', icon: Chrome, label: 'Google' }
+    { to: '/external/ide', icon: Code, label: 'IDE' }
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 h-16 bg-black/95 backdrop-blur-sm border-t border-[#460073] z-50">
+    <nav className="fixed bottom-0 left-0 right-0 h-16 bg-purple-700/.5 backdrop-blur-sm border-t border-[#460073] z-50">
       <div className="container mx-auto h-full px-4">
         <div className="flex items-center justify-between h-full overflow-x-auto">
           {navItems.map((item) => (

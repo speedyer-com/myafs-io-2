@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Bell, User } from 'lucide-react';
 
@@ -6,7 +6,7 @@ export function TopNav() {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <header className="fixed top-0 left-0 right-0 h-16 bg-black/95 backdrop-blur-sm border-b border-[#460073] z-50">
+    <header className="fixed top-0 left-0 right-0 h-16 bg-purple-500/10 backdrop-blur-sm border-b border-[#460073] z-50">
       <div className="container mx-auto h-full px-4">
         <div className="flex items-center justify-between h-full">
           {/* Logo */}
