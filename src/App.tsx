@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { TopNav } from './components/navigation/TopNav';
 import { BottomNav } from './components/navigation/BottomNav';

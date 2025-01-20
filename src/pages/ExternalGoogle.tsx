@@ -15,7 +15,7 @@ export function ExternalGoogle() {
         </div>
       )}
       <iframe
-        src="https://yahoo.com"
+        src="http://localhost:3001/proxy?url=https://www.vscode.dev"
         className="w-full min-h-[calc(100vh-12rem)] border border-[#460073] rounded-lg"
         sandbox="allow-same-origin allow-scripts allow-forms"
         onLoad={() => setIsLoading(false)}
